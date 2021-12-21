@@ -1,0 +1,153 @@
+body {
+  font-family: 'Otomanopee One', sans-serif;
+}
+header {
+  background: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.caixa {
+  position: static;
+  width: 891px;
+  margin: 0 auto;
+}
+nav {
+  position: inherit;
+  top: 110px;
+  right: 92px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav li a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 33px;
+  text-decoration: none;
+  transition: 400ms;
+}
+nav a:hover {
+  color: cornsilk;
+  transition: 400ms;
+  font-size: 30px;
+}
+.banner {
+  width: 100%;
+}
+.principal {
+  padding: 3rem 0;
+  background: #fff;
+  width: 90%;
+  margin: 0 auto;
+}
+.principal p {
+  margin: 0 1rem 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+.principal strong {
+  font-weight: bold;
+}
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 0 1rem;
+  clear: left;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000;
+  color: rgba(212, 58, 31, 0.938);
+}
+
+#missão {
+  font-size: 20px;
+}
+
+.mapa {
+  padding: 3rem 0;
+  background: linear-gradient(180deg, #fff, #bbbbbb);
+}
+
+.mapa p {
+  margin: 0 0 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.caixa .img {
+  width: 10px;
+}
+
+.beneficios {
+  background: #d4d4d4;
+  padding: 20px;
+}
+
+.conteudo-beneficio {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.lista-beneficios {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.lista-beneficios li {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.img-beneficios {
+  width: 100%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px #000;
+}
+
+.img-beneficios:hover {
+  opacity: 0.3;
+}
+
+footer {
+  text-align: center;
+  background: #fff;
+  padding: 40px 0;
+}
+
+.copy {
+  font-size: 13px;
+  font-weight: bolder;
+}
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficio,
+  .video {
+    width: auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  .titulo-principal {
+    font-size: 22px;
+  }
+  nav {
+    position: static;
+    text-align: center;
+  }
+  .lista-beneficios {
+    width: 100%;
+  }
+  .img-beneficios {
+    width: 100%;
+  }
+}

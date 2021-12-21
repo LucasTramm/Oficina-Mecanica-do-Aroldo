@@ -1,0 +1,124 @@
+body {
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+header {
+  background: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.caixa {
+  position: static;
+  width: 940px;
+  margin: 0 auto;
+}
+nav {
+  position: inherit;
+  top: 110px;
+  right: 92px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav li a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 33px;
+  text-decoration: none;
+  transition: 400ms;
+}
+
+nav a:hover {
+  color: cornsilk;
+  transition: 400ms;
+  font-size: 30px;
+}
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 12px;
+}
+
+.produtos li:hover {
+  border-color: black;
+  background-color: cornsilk;
+  font-size: 20px;
+}
+
+.produtos li:active {
+  border-color: red;
+}
+
+.produtos li:hover h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.produto-preco {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: #fff;
+  padding: 40px 0;
+  margin-top: 10px;
+}
+
+.copy {
+  font-size: 13px;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1024px) {
+  .caixa,
+  .principal .footer {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .produtos {
+    width: 100%;
+    text-align: center;
+  }
+
+  .produtos li {
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+  }
+}

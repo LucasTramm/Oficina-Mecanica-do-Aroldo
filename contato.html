@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="PtBr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/contato.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <div class="caixa">
+        <img src="img/Screenshot_3.png" alt="" />
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" class="input-padrao" required />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="input-padrao"
+          placeholder="seuemail@dominio.com"
+          required
+        />
+        <label for="telefone">Telefone:</label>
+        <input
+          type="tel"
+          name="telefone"
+          id="telefone"
+          class="input-padrao"
+          placeholder="(XX) XXXXX-XXXX"
+          required
+        />
+        <label for="mensagem">Mensagem:</label>
+        <textarea
+          name=""
+          id="mensagem"
+          class="input-padrao"
+          cols="71"
+          rows="10"
+        ></textarea>
+        <fieldset>
+          <legend>Como prefere nosso contato?</legend>
+          <label for="radio-email">
+            <input
+              type="radio"
+              name="contato"
+              value="email"
+              id="radio-email"
+            />E-mail</label
+          >
+          <label for="radio-telefone">
+            <input
+              type="radio"
+              name="contato"
+              value="telefone"
+              id="radio-telefone"
+            />Telefone</label
+          >
+          <label for="radio-whatsapp">
+            <input
+              type="radio"
+              name="contato"
+              value="whatsapp"
+              id="radio-whatsapp"
+            />WhatsApp</label
+          >
+        </fieldset>
+
+        <fieldset class="fieldset-horario">
+          <legend>Qual horário prefere ser atendido?</legend>
+          <select name="" id="">
+            <option value="">Manhã</option>
+            <option value="">Tarde</option>
+            <option value="">Noite</option>
+          </select>
+        </fieldset>
+        <label for="checkbox">
+          <input type="checkbox" checked />Gostaria de receber nossas novidades
+          por e-mail?</label
+        >
+        <input type="submit" class="enviar" value="Enviar Formulário" />
+        <table>
+          <thead>
+            <tr>
+              <th>Dia</th>
+              <th>Horário</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Segunda - Sexta</td>
+              <td>8h - 20h</td>
+            </tr>
+            <tr>
+              <td>Sábado</td>
+              <td>8h - 12h</td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </main>
+    <footer>
+      <img src="img/Screenshot_3.png" alt="" />
+      <p class="copy">
+        Todos os direitos reservados - Oficina Mecânica do Aroldo - 2021
+      </p>
+    </footer>
+  </body>
+</html>

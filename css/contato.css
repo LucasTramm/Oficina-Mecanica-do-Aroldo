@@ -1,0 +1,157 @@
+body {
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+header {
+  background: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.caixa {
+  position: static;
+  width: 940px;
+  margin: 0 auto;
+}
+nav {
+  position: inherit;
+  top: 110px;
+  right: 92px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav li a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 33px;
+  text-decoration: none;
+  transition: 400ms;
+}
+
+nav a:hover {
+  color: cornsilk;
+  transition: 400ms;
+  font-size: 30px;
+}
+main {
+  text-align: center;
+  width: 100%;
+}
+form {
+  display: inline-block;
+  width: 100%;
+}
+
+label {
+  display: block;
+  font-size: 20x;
+  padding: 5px;
+  font-weight: bold;
+}
+.fieldset-horario {
+  margin: 25px 0 10px;
+}
+
+select {
+  margin: 10px 0 10px;
+  font-size: 18px;
+  width: 20%;
+}
+.input-padrao {
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 25%;
+}
+.checkbox {
+  margin: 10px 0 30px;
+}
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: #bbbbbb;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.enviar:hover {
+  background: darkorange;
+  color: #fff;
+  transition: 1s;
+}
+table {
+  margin: 30px auto;
+  text-align: center;
+}
+thead {
+  background: #555;
+  color: #fff;
+  font-weight: bold;
+}
+td,
+th {
+  border: 1px solid #000;
+  padding: 8px 15px;
+}
+footer {
+  text-align: center;
+  background: #fff;
+  padding: 40px 0;
+  margin-top: 10px;
+}
+
+.copy {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 1024px) {
+  .caixa {
+    width: auto;
+  }
+  .principal .footer {
+    width: auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  nav {
+    position: static;
+    text-align: center;
+  }
+  .input-padrao {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .input-padrao {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .input-padrao {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 70%;
+  }
+  .enviar {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 325px) {
+  .enviar {
+    width: 70%;
+  }
+}
